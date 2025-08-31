@@ -1,2 +1,45 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# -------------------------
+# Normalizar finais de código
+# -------------------------
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+
+# -------------------------
+# Arquivos binários
+# -------------------------
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.zip binary
+*.rar binary
+*.tar binary
+
+# -------------------------
+# Arquivos de dados
+# -------------------------
+*.csv text
+*.xlsx binary
+*.h5 binary
+*.npz binary
+
+# -------------------------
+# Streamlit e caches
+# -------------------------
+.streamlit/* text
+.cache/* text
+
+# -------------------------
+# Ignorar merge para arquivos binários
+# -------------------------
+*.png merge=binary
+*.jpg merge=binary
+*.pdf merge=binary
+*.xlsx merge=binary
+
+# -------------------------
+# Export-ignore (quando exportar o repo)
+# -------------------------
+docs/temp/* export-ignore
+*.log export-ignore
