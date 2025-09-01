@@ -48,7 +48,9 @@ controller: Pasta que guarda os recebimentos dos dados da interface, chamam os a
 ## Tecnologias Utilizadas
 
 -> Plataforma de Hospedagem: GitHub
+
 -> Ambiente de desenvolvimento: Visual Studio Code
+
 -> Sistema de versionamento Git: versão 2.49.0
 
 -> Linguagem Python: versão 3.13.1
