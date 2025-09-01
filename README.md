@@ -25,29 +25,25 @@ Adicionar responsabilidades.
 
 APS_4SEM/: Pasta principal do projeto.
 
-│ requirements.txt: Esse arquivo contém todas as bibliotecas que o projeto precisa para funcionar.
+requirements.txt: Esse arquivo contém todas as bibliotecas que o projeto precisa para funcionar.
 
-│ README.md: Esse arquivo é um guia que explica do que se trata o projeto, como executar, estrutura, tecnologias e refêrencias.
+README.md: Esse arquivo é um guia que explica do que se trata o projeto, como executar, estrutura, tecnologias e refêrencias.
 
-│ .gitattributes: Esse arquivo define como a tecnologia Git deve tratar certos tipos de arquivos.
+.gitattributes: Esse arquivo define como a tecnologia Git deve tratar certos tipos de arquivos.
 
-│ .gitignore: Esse arquivo define outros arquivos e pastas que não devem ir para o Git.
+.gitignore: Esse arquivo define outros arquivos e pastas que não devem ir para o Git.
 
-│ LICENSE: Esse arquivo define os direitos de uso, distribuição e modificação do projeto por outras pessoas.
+LICENSE: Esse arquivo define os direitos de uso, distribuição e modificação do projeto por outras pessoas.
 
-├── imagens: Pasta onde ficam as imagens de satélite usadas nos testes.
+imagens: Pasta onde ficam as imagens de satélite usadas nos testes.
 
-├── apps: Pasta principal do código-fonte.
+apps: Pasta principal do código-fonte.
 
-│├── model: Pasta que guarda classes de algoritmos de ordenação.
+model: Pasta que guarda classes de algoritmos de ordenação.
 
-│
+view: Pasta que guarda a interface.
 
-│├── view: Pasta que guarda a interface.
-
-│
-
-│├── controller: Pasta que guarda os recebimentos dos dados da interface, chamam os algoritmos e devolvem os resultado.
+controller: Pasta que guarda os recebimentos dos dados da interface, chamam os algoritmos e devolvem os resultado.
 
 ## Tecnologias Utilizadas
 
