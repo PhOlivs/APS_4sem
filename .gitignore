@@ -1,24 +1,18 @@
-# -------------------------
 # Python
-# -------------------------
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 *.pyc
 
-# -------------------------
 # Pipenv / virtualenv
-# -------------------------
 env/
 venv/
 ENV/
 .env
 *.env
 
-# -------------------------
 # Documentos e relatórios temporários
-# -------------------------
 *.log
 *.tmp
 *.bak
@@ -27,15 +21,12 @@ ENV/
 *.aux
 *.toc
 *.pdf
-*.docx
 *.pptx
 *.odt
 *.rtf
 *.tex
 
-# -------------------------
 # IDEs e editores
-# -------------------------
 .vscode/
 .idea/
 *.sublime-project
