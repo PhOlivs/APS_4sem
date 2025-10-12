@@ -1,15 +1,12 @@
-import streamlit as st
-from src.controller.controle import controle
+from src.controller.dashboard_controller import DashboardController
+from src.view.dashboard_view import DashboardView
 
-st.title("Análise de Desmatamento")
+# Caminhos
+model_path = "data\datamodelo_random_forest.pkl"
+scaler_path = "data\datascaler.pkl"
+feature_columns = ['year','month','uf','classname','numpol']
 
-uploaded_file = st.file_uploader("Escolha um arquivo CSV", type="csv")
-if uploaded_file:
-    controller = controle(uploaded_file)
-    df = controller.analisar_dados()
-    
-    if df is not None:
-        st.write("Dados Carregados com Sucesso!")
-        st.dataframe(df.head())
-    else:
-        st.write("Falha ao carregar os dados.")
+# Instâncias
+controller = DashboardController(model_path, scaler_path, feature_columns)
+view = DashboardView(controller)
+view.render()
